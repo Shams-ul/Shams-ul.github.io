@@ -8,11 +8,6 @@
   "description": "Academic website of Md Shamsul Islam.",
   "copyright_year": 2026,
   "footer_text": "Last updated:",
-  "attribution": {
-    "prefix": "Adapted from",
-    "source_label": "mraoaakash/academic-website-template",
-    "source_url": "https://github.com/mraoaakash/academic-website-template"
-  },
   "navigation": [
     { "label": "Home", "path": "index.html" },
     { "label": "Projects", "path": "pages/projects.html" },
