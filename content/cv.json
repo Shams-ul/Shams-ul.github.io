@@ -1,87 +1,128 @@
 [
   {
-    "title": "Research Experience",
-    "entries": [
-      {
-        "title": "Doctoral Researcher",
-        "organization": "Example University",
-        "dates": "Sep 2024 - Present",
-        "logo": "assets/images/institution-placeholder.svg",
-        "logo_alt": "Example University logo placeholder",
-        "flag": "GB-ENG",
-        "flag_alt": "Country flag",
-        "bullets": [
-          "Researching an example topic in the Example Research Group.",
-          "Developing methods for an example application and collaborating with domain experts."
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "organization": "Example Research Institute",
-        "dates": "Jun 2023 - Aug 2024",
-        "logo": "assets/images/institution-placeholder.svg",
-        "logo_alt": "Example Research Institute logo placeholder",
-        "flag": "US",
-        "flag_alt": "Country flag",
-        "bullets": [
-          "Supported an interdisciplinary research project.",
-          "Analysed data and contributed to a peer-reviewed manuscript."
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Teaching Experience",
-    "entries": [
-      {
-        "title": "Teaching Assistant",
-        "organization": "Example University",
-        "dates": "Jan 2025 - May 2025",
-        "logo": "assets/images/institution-placeholder.svg",
-        "logo_alt": "Example University logo placeholder",
-        "flag": "GB-ENG",
-        "flag_alt": "Country flag",
-        "bullets": [
-          "Assisted with Example Course: Introduction to the Subject.",
-          "Led tutorials and provided feedback on coursework."
-        ]
-      }
-    ]
-  },
-  {
     "title": "Education",
     "entries": [
       {
-        "title": "Doctor of Philosophy (PhD), Example Subject",
-        "organization": "Example University",
-        "dates": "2024 - Present",
+        "title": "BSc, Mechanical Engineering",
+        "organization": "Chittagong University of Engineering and Technology",
+        "dates": "Feb 2020 - July 2025",
         "logo": "assets/images/institution-placeholder.svg",
-        "logo_alt": "Example University logo placeholder",
-        "flag": "GB-ENG",
-        "flag_alt": "Country flag"
-      },
-      {
-        "title": "Master of Science, Example Subject",
-        "organization": "Example University",
-        "dates": "2022 - 2023",
-        "logo": "assets/images/institution-placeholder.svg",
-        "logo_alt": "Example University logo placeholder",
-        "flag": "US",
-        "flag_alt": "Country flag"
+        "logo_alt": "CUET logo placeholder",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "First Class Honours, CGPA 3.57/4.00"
+        ]
       }
     ]
   },
   {
-    "title": "Honors and Awards",
+    "title": "Research Experience",
     "entries": [
       {
-        "title": "Example Academic Award",
-        "organization": "Example Professional Society",
-        "dates": "May 2025",
+        "title": "Research Intern",
+        "organization": "Nanomaterials and Energy Storage System (NESS) Lab, CUET",
+        "dates": "June 2025 - March 2026",
         "logo": "assets/images/institution-placeholder.svg",
-        "logo_alt": "Awarding organization logo placeholder",
-        "flag": "GB-ENG",
-        "flag_alt": "Country flag"
+        "logo_alt": "NESS Lab logo placeholder",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "Investigated black phosphorus-based nanocomposites as high-performance anode materials for lithium-ion batteries",
+          "Explored transition-metal-oxide-rich steel slag as a sustainable precursor for lithium-ion battery anode materials",
+          "Principal Investigator: Dr. Md. Arafat Rahman"
+        ]
+      },
+      {
+        "title": "Undergraduate Research Thesis: Synthesis of Porous Nanostructured Iron Oxide from TMO-Rich Waste Steel Slag for Lithium-Ion Battery Anode Applications",
+        "organization": "Nanomaterials and Energy Storage System (NESS) Lab, CUET",
+        "dates": "Jan 2025 - June 2025",
+        "logo": "assets/images/institution-placeholder.svg",
+        "logo_alt": "NESS Lab logo placeholder",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "Synthesized porous nanostructured iron oxide from transition-metal-oxide-rich industrial steel slag through ball milling, chemical and thermal processing routes",
+          "Fabricated iron oxide-based anode materials and assembled lithium-ion coin cells for electrochemical evaluation",
+          "Performed materials characterization using XRD and SEM to investigate morphology and phase composition",
+          "Conducted electrochemical characterization including GCD testing, CV, and EIS to evaluate battery performance"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Research Interests",
+    "entries": [
+      {
+        "title": "Lithium-ion battery, lithium-air battery, microporous materials, filtration membranes, ion transport, solid-state electrolytes, thermal modelling",
+        "organization": "",
+        "dates": ""
+      }
+    ]
+  },
+  {
+    "title": "Skills",
+    "entries": [
+      {
+        "title": "Laboratory and Experimental Skills",
+        "organization": "",
+        "dates": "",
+        "bullets": [
+          "Dry chemical synthesis, thermal processing and heat treatment, powder processing, material synthesis, nanomaterial engineering",
+          "Electrochemical characterization, glovebox operation, air-sensitive material handling",
+          "Equipment: CV, EIS, GCD, SEM, XRD, ball mill, centrifuge, argon glovebox system, 3D printing"
+        ]
+      },
+      {
+        "title": "Computational and Programming Skills",
+        "organization": "",
+        "dates": "",
+        "bullets": [
+          "Programming: Python, MATLAB, C++, PowerShell scripting",
+          "Machine learning: Scikit-learn, Keras, TensorFlow, NLP, big data processing",
+          "Data visualization: Pandas, NumPy, SciPy, Matplotlib, OpenCV, Origin Pro",
+          "Modelling software: ANSYS, SolidWorks, Quantum Espresso, CASTEP, COMSOL Multiphysics"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Leadership and Volunteering",
+    "entries": [
+      {
+        "title": "Executive Member",
+        "organization": "Chittagong Student Forum, CUET",
+        "dates": ""
+      },
+      {
+        "title": "Executive Member",
+        "organization": "CUET Automotive and Mobility Society",
+        "dates": ""
+      },
+      {
+        "title": "Executive Member",
+        "organization": "Supply Chain and Business Alliance, CUET",
+        "dates": ""
+      }
+    ]
+  },
+  {
+    "title": "Conferences and Workshops",
+    "entries": [
+      {
+        "title": "International Conference on Mechanical Engineering and Renewable Energy",
+        "organization": "CUET",
+        "dates": "2025"
+      },
+      {
+        "title": "International Conference on Mechanical Engineering and Renewable Energy",
+        "organization": "CUET",
+        "dates": "2023"
+      },
+      {
+        "title": "CUET Competitive Programming Workshop",
+        "organization": "CUET",
+        "dates": ""
       }
     ]
   }
