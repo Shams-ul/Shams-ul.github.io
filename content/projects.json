@@ -1,26 +1,8 @@
-[
-  {
-    "id": "project-example-one",
-    "title": "Example Research Project",
-    "summary": "A concise description of the research question, method, and intended impact of this project.",
-    "image": "assets/images/project-placeholder.svg",
-    "image_alt": "Example Research Project placeholder image",
-    "url": "pages/projects/project-example-one.html"
-  },
-  {
-    "id": "project-example-two",
-    "title": "Example Collaborative Project",
-    "summary": "A second example showing how to describe collaborative or interdisciplinary research.",
-    "image": "assets/images/project-placeholder.svg",
-    "image_alt": "Example Collaborative Project placeholder image",
-    "url": "pages/projects/project-example-two.html"
-  },
-  {
-    "id": "project-external",
-    "title": "Project with an External Website",
-    "summary": "Project cards may also link directly to an external project website or software demonstration.",
-    "image": "assets/images/project-placeholder.svg",
-    "image_alt": "External project placeholder image",
-    "url": "https://example.com"
-  }
-]
+{
+  "id": "dielectric-immersion-cooling-fast-charging",
+  "title": "Dielectric Immersion Cooling of Li-ion Battery Modules Under Fast Charging",
+  "summary": "A COMSOL multiphysics study of single-phase dielectric fluid immersion cooling for a 12-cell NMC battery module under 1C-5C fast charging, evaluating thermal runaway risk and cell-to-cell temperature non-uniformity.",
+  "image": "assets/images/project-placeholder.svg",
+  "image_alt": "Simulation of dielectric fluid immersion cooling for a lithium-ion battery module",
+  "url": "pages/projects/dielectric-immersion-cooling-fast-charging.html"
+}
