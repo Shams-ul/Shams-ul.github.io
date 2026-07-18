@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dielectric Immersion Cooling of Li-ion Battery Modules</title>
+  <meta name="description" content="COMSOL multiphysics study of dielectric fluid immersion cooling for lithium-ion battery modules under fast charging.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="../../site/styles.css">
+</head>
+<body>
+  <nav class="topbar" data-site-nav></nav>
+  <header class="hero">
+    <div class="container">
+      <p class="tag">Project</p>
+      <h1>Dielectric Immersion Cooling of Li-ion Battery Modules Under Fast Charging</h1>
+      <p class="subtitle">A COMSOL multiphysics study of single-phase dielectric fluid immersion cooling for a 12-cell NMC battery module under 1C-5C fast charging, evaluating thermal runaway risk and cell-to-cell temperature non-uniformity.</p>
+    </div>
+  </header>
+  <main class="container">
+    <section>
+      <img class="project-detail-image project-banner-image" src="../../assets/images/project-placeholder.svg" alt="Simulation of dielectric fluid immersion cooling for a lithium-ion battery module">
+      <h2>Overview</h2>
+      <p>Fast charging at 4C to 5C rates, a full charge in 12 to 15 minutes, generates heat that conventional air and indirect liquid cooling struggle to manage. Excessive, non-uniform temperature rise accelerates battery degradation through lithium plating, accelerated SEI growth, and thermal stress, and in the worst case can trigger thermal runaway. Dielectric fluid immersion cooling addresses this by submerging cells directly in a non-conductive coolant, contacting every cell surface simultaneously and reducing thermal resistance, while remaining electrically safe despite direct contact with live terminals. This project evaluates that approach as a journal paper targeting outlets such as the Journal of Energy Storage, Applied Thermal Engineering, or Journal of Power Sources.</p>
+      <h2>Approach</h2>
+      <p>The study models a 12S1P module of twelve NMC 21700 cylindrical cells arranged in a 2x6 grid inside a sealed rectangular coolant enclosure, built in COMSOL Multiphysics 6.2. Each cell is represented by its own Lumped Battery physics interface with temperature-dependent, Arrhenius-governed parameters, coupled to the thermal solver through Electrochemical Heating. Heat conduction within each cell uses an anisotropic thermal conductivity tensor aligned to that cell's axis, reflecting the wound jellyroll structure where heat conducts more easily along the winding axis than radially through the electrode layers. The coolant domain is solved with Laminar Flow coupled to heat transfer via Nonisothermal Flow.</p>
+      <p>A parametric sweep covers five charging rates (1C to 5C) crossed with five flow rates (5 to 25 LPM), 25 combinations in total, each run as a full time-dependent simulation from a 20&deg;C rest state. In parallel, an analytical derivation of the convective heat transfer coefficient using the Hausen and Gnielinski correlations, with a Sieder-Tate viscosity correction, provided a theoretical baseline to validate the simulation results. Maximum pack temperature rises from around 30&deg;C at 1C to 64&deg;C at 5C, crossing the 45&deg;C threshold above which NMC degradation accelerates significantly at roughly 3C to 4C depending on flow rate. Temperature non-uniformity across the 12-cell series string reaches up to 20&deg;C at high C-rates, driven by progressive thermal loading of the coolant as it passes successive cell columns, a significant concern for pack longevity in series strings.</p>
+      <h2>My role</h2>
+      <p>Independently developed the full COMSOL multiphysics model, including the electrochemical, thermal, and fluid flow coupling, ran the 25-combination parametric study, and performed the parallel analytical heat transfer derivation used to validate the simulation results.</p>
+      <h2>Outputs</h2>
+      <p>Manuscript in preparation.</p>
+    </section>
+  </main>
+  <footer class="site-footer" data-site-footer></footer>
+  <script src="../../site/script.js"></script>
+</body>
+</html>
