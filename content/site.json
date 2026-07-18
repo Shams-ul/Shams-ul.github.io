@@ -22,7 +22,7 @@
     "news.html": { "title": "News", "description": "Latest news and updates from Md Shamsul Islam." },
     "cv.html": { "title": "CV", "description": "Curriculum Vitae of Md Shamsul Islam." }
   },
-  "profile_image": "assets/images/profile-placeholder.jpg",
+  "profile_image": "assets/images/assets/images/institution-placeholder.jpg",
   "profile_image_alt": "Md Shamsul Islam profile photo placeholder",
   "bio_html": "Shamsul Islam is a Mechanical Engineering graduate (First Class Honours, CGPA 3.57/4.00) from Chittagong University of Engineering and Technology, Bangladesh. His research centers on electrochemical energy storage, with a focus on anode materials and solid-state electrolytes for lithium-ion and metal-air batteries. He is first author of a Q1 review on black phosphorus nanocomposite anodes published in Battery Energy and has conducted undergraduate thesis work on porous iron oxide anodes synthesized from industrial steel slag, presented at ICMERE 2025. He aims to pursue doctoral research developing sustainable, high-performance electrode and electrolyte materials to advance next-generation energy storage systems.",
   "contact": [
