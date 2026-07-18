@@ -3,7 +3,7 @@
   "id": "dielectric-immersion-cooling-fast-charging",
   "title": "Dielectric Immersion Cooling of Li-ion Battery Modules Under Fast Charging",
   "summary": "A COMSOL multiphysics study of single-phase dielectric fluid immersion cooling for a 12-cell NMC battery module under 1C-5C fast charging, evaluating thermal runaway risk and cell-to-cell temperature non-uniformity.",
-  "image": "assets/images/project-placeholder.svg",
+  "image": "assets/images/img.jpg",
   "image_alt": "Simulation of dielectric fluid immersion cooling for a lithium-ion battery module",
   "url": "pages/projects/dielectric-immersion-cooling-fast-charging.html"
 }
