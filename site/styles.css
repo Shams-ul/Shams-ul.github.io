@@ -1,33 +1,32 @@
 :root {
-  --bg: #fbf2fb;
-  --panel: rgba(255, 249, 253, 0.88);
-  --text: #000000;
-  --muted: #000000;
-  --strong: #000000;
-  --accent: #8b1e78;
-  --accent-2: #5a2477;
-  --link: #7a1f8a;
-  --link-visited: #6b2f8f;
-  --link-hover: #ad2a8e;
-  --border: #e7c9e5;
-  --topbar-bg: rgba(255, 249, 253, 0.92);
-  --control-bg: rgba(255, 249, 253, 0.88);
-  --control-border: #d8afd7;
-  --control-border-hover: #b66aac;
-  --menu-hover: #f4d9f0;
-  --menu-shadow: rgba(77, 31, 88, 0.18);
-  --code-bg: #f6dff1;
-  --code-text: #000000;
-  --tag-bg: #f2c8e9;
-  --tag-text: #000000;
-  --news-badge-bg: #ead0ee;
-  --news-badge-text: #000000;
-  --button-text: #fff7fc;
-  --focus-ring: rgba(139, 30, 120, 0.18);
+  --bg: #f1f5f4;
+  --panel: rgba(255, 255, 255, 0.9);
+  --text: #12262b;
+  --muted: #4b6066;
+  --strong: #0d1b1f;
+  --accent: #0f6e67;
+  --accent-2: #0b4f4a;
+  --link: #146b64;
+  --link-visited: #2f5c69;
+  --link-hover: #0c4842;
+  --border: #d7e4e2;
+  --topbar-bg: rgba(255, 255, 255, 0.92);
+  --control-bg: rgba(255, 255, 255, 0.88);
+  --control-border: #c3d6d3;
+  --control-border-hover: #8fb0ac;
+  --menu-hover: #e3efed;
+  --menu-shadow: rgba(15, 60, 55, 0.12);
+  --code-bg: #e6f0ee;
+  --code-text: #12262b;
+  --tag-bg: #f0dcb5;
+  --tag-text: #5a3d10;
+  --news-badge-bg: #d7ece8;
+  --news-badge-text: #0d2b28;
+  --button-text: #ffffff;
+  --focus-ring: rgba(15, 110, 103, 0.18);
   --background-image-opacity: 0.28;
   --site-background-image: none;
 }
-
 * {
   box-sizing: border-box;
 }
