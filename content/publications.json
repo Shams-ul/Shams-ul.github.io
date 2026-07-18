@@ -1,46 +1,56 @@
 [
   {
-    "id": "example-journal-article",
-    "title": "An Example Journal Article Title",
-    "content": "Jane Doe, Jamie Taylor, and Sam Lee",
-    "link": "https://doi.org/10.0000/example.2026.001",
-    "publisher": "Journal of Example Research, 2026",
-    "image": "assets/images/publications/placeholder-cover.svg",
-    "tags": ["key_publications", "journal"],
-    "buttons": [
-      { "id": 1, "title": "Publisher", "link": "https://example.com" },
-      { "id": 2, "title": "Code", "link": "https://github.com/your-username/example-project" }
-    ],
-    "created_at": 1767225600,
-    "updated_at": 1767225600
-  },
-  {
-    "id": "example-conference-paper",
-    "title": "An Example Conference Paper Title",
-    "content": "Jamie Taylor, Jane Doe, and Robin Smith",
-    "link": "https://example.com",
-    "publisher": "Proceedings of the Example Conference, 2025",
-    "image": "assets/images/publications/placeholder-cover.svg",
-    "tags": ["key_publications", "conference"],
-    "buttons": [
-      { "id": 1, "title": "Paper", "link": "https://example.com" },
-      { "id": 2, "title": "Data", "link": "https://example.com" }
-    ],
-    "created_at": 1735689600,
-    "updated_at": 1735689600
-  },
-  {
-    "id": "example-preprint",
-    "title": "An Example Preprint Title",
-    "content": "Jane Doe and Casey Chen",
-    "link": "https://arxiv.org/",
-    "publisher": "arXiv preprint, 2024",
-    "image": "assets/images/publications/placeholder-cover.svg",
-    "tags": ["preprint"],
-    "buttons": [
-      { "id": 1, "title": "Preprint", "link": "https://arxiv.org/" }
-    ],
-    "created_at": 1704067200,
-    "updated_at": 1704067200
-  }
+  "id": "islam-2026-black-phosphorus-review",
+  "title": "Black Phosphorus-Based Nanocomposites as Anode Materials for Lithium-Ion Batteries: A Comprehensive Review",
+  "content": "Md Shamsul Islam, Konok Chandra Bhowmik, Sabit Ara Orpa, Md. Aminul Islam, Md. Arafat Rahman",
+  "link": "https://doi.org/10.1002/bte2.70110",
+  "publisher": "Battery Energy, 2026",
+  "image": "assets/images/publications/publication-placeholder.svg",
+  "tags": ["key_publications", "journal"],
+  "buttons": [
+    { "id": 1, "title": "Publisher", "link": "https://doi.org/10.1002/bte2.70110" }
+  ],
+  "created_at": 1774828800,
+  "updated_at": 1774828800
+},
+ {
+  "id": "islam-2025-acidic-steel-slag-anode-icmere",
+  "title": "Synthesis and Characterization of Acidic Steel Slag as Anode Material of Lithium-Ion Batteries",
+  "content": "Md Shamsul Islam, Md. Arafat Rahman, Konok Chandra Bhowmik, Rudra Barua, Shaswato Barua, Tauhidul Hossain, Syed Muhammad Sayem Hasan",
+  "link": "https://www.researchgate.net/publication/408246447_ICMERE2025_PI_155",
+  "publisher": "Proceedings of the 8th International Conference on Mechanical Engineering and Renewable Energy (ICMERE2025), CUET, Chattogram, 2025",
+  "image": "assets/images/publications/publication-placeholder.svg",
+  "tags": ["conference"],
+  "buttons": [
+    { "id": 1, "title": "ResearchGate PDF", "link": "https://www.researchgate.net/publication/408246447_ICMERE2025_PI_155" }
+  ],
+  "created_at": 1765324800,
+  "updated_at": 1765324800
+},
+ {
+  "id": "rafat-2023-frp-composites-high-velocity-impact",
+  "title": "A Comparative Numerical Study on High Velocity Impact Performance of Fiber Reinforced Polymer Composites",
+  "content": "Mukabbir Ahamed Rafat, Md Shamsul Islam, Md Musfik Mubarrat, Tafsirul Hassan",
+  "link": "https://www.researchgate.net/publication/379323640_A_Comparative_Numerical_Study_on_High_Velocity_Impact_Performance_of_Fiber_Reinforced_Polymer_Composites",
+  "publisher": "Proceedings of the International Conference on Mechanical Engineering and Renewable Energy (ICMERE 2023), CUET, Chattogram, 2023",
+  "image": "assets/images/publications/publication-placeholder.svg",
+  "tags": ["conference"],
+  "buttons": [
+    { "id": 1, "title": "ResearchGate PDF", "link": "https://www.researchgate.net/publication/379323640_A_Comparative_Numerical_Study_on_High_Velocity_Impact_Performance_of_Fiber_Reinforced_Polymer_Composites" }
+  ],
+  "created_at": 1700092800,
+  "updated_at": 1700092800
+},
+{
+  "id": "islam-igbt-moisture-stress-under-review",
+  "title": "Moisture-Induced Stress Behavior in Encapsulated IGBT Modules: A Comparative Study of Silicone Gel and Epoxy Molding Compounds",
+  "content": "Md Shamsul Islam, Tasdik Hossain, Md Rishad Ahmed, Stoyan Stoyanov, Sheik Mohammed Sulthan, Muhammad Sana Ullah, Mohammad Shahjalal",
+  "link": "",
+  "publisher": "IEEE Transactions on Materials and Device Reliability, Under Review",
+  "image": "assets/images/publications/publication-placeholder.svg",
+  "tags": ["journal"],
+  "buttons": [],
+  "created_at": 1784332800,
+  "updated_at": 1784332800
+}
 ]
