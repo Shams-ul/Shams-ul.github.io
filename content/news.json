@@ -1,21 +1,33 @@
 [
   {
-    "date": "2026-06-15",
-    "text": "Jane presented recent research at the Example International Conference.",
-    "image": "",
-    "gif": "",
-    "url": "https://example.com",
-    "url_label": "Conference website"
-  },
-  {
-    "date": "2026-03-10",
-    "text": "Jane's paper on an example research topic was accepted for publication.",
+    "date": "2026-05-01",
+    "text": "Submitted a paper on moisture-induced stress in encapsulated IGBT modules to IEEE Transactions on Materials and Device Reliability, currently under review.",
     "image": "",
     "gif": ""
   },
   {
-    "date": "2026-01-08",
-    "text": "Jane joined Example University as a doctoral researcher.",
+    "date": "2026-03-27",
+    "text": "Published a first-author review on black phosphorus-based nanocomposite anode materials for lithium-ion batteries in Battery Energy.",
+    "image": "",
+    "gif": "",
+    "url": "https://doi.org/10.1002/bte2.70110",
+    "url_label": "Read the paper"
+  },
+  {
+    "date": "2025-12-10",
+    "text": "Presented research on acidic steel slag as an anode material for lithium-ion batteries at ICMERE2025, CUET.",
+    "image": "",
+    "gif": ""
+  },
+  {
+    "date": "2025-07-01",
+    "text": "Graduated with a BSc in Mechanical Engineering (First Class Honours, CGPA 3.57/4.00) from Chittagong University of Engineering and Technology.",
+    "image": "",
+    "gif": ""
+  },
+  {
+    "date": "2025-06-01",
+    "text": "Joined the Nanomaterials and Energy Storage System (NESS) Lab at CUET as a Research Intern under Dr. Md. Arafat Rahman.",
     "image": "",
     "gif": ""
   }
