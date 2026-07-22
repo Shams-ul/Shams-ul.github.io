@@ -34,7 +34,8 @@
         ]
       },
       {
-        "title": "Undergraduate Research Thesis: Synthesis of Porous Nanostructured Iron Oxide from TMO-Rich Waste Steel Slag for Lithium-Ion Battery Anode Applications",
+        "Task": "Undergraduate Research Thesis" 
+        "Title": "Synthesis of Porous Nanostructured Iron Oxide from TMO-Rich Waste Steel Slag for Lithium-Ion Battery Anode Applications",
         "organization": "Nanomaterials and Energy Storage System (NESS) Lab, CUET",
         "dates": "Jan 2025 - June 2025",
         "logo": "assets/images/institution-placeholder.svg",
