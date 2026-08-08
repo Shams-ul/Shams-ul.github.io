@@ -4,34 +4,58 @@ const FLAG_BASE_URL = "https://cdn.jsdelivr.net/npm/flagpack-core@2.0.0/svg/l/";
 const createCvEntry = (entry) => {
   const article = document.createElement("article");
   article.className = "cv-li-entry";
-
-  const logo = document.createElement("img");
-  logo.className = "cv-li-logo";
-  logo.src = window.resolveSiteUrl(entry.logo);
-  logo.alt = entry.logo_alt || "";
-
   const content = document.createElement("div");
   content.className = "cv-li-content";
   const title = document.createElement("p");
   title.className = "cv-li-title";
   title.textContent = entry.title;
-  const organization = document.createElement("p");
-  organization.className = "cv-li-org";
-  organization.textContent = entry.organization;
-  const meta = document.createElement("p");
-  meta.className = "cv-li-meta";
-  const dates = document.createElement("span");
-  dates.className = "cv-date-badge";
-  dates.textContent = entry.dates;
-  meta.appendChild(dates);
-
-  if (entry.flag) {
-    const flag = document.createElement("img");
-    flag.className = "cv-flag";
-    flag.src = `${FLAG_BASE_URL}${encodeURIComponent(entry.flag)}.svg`;
-    flag.alt = entry.flag_alt || "Country flag";
-    meta.append(" ", flag);
+  content.appendChild(title);
+  if (entry.organization) {
+    const organization = document.createElement("p");
+    organization.className = "cv-li-org";
+    organization.textContent = entry.organization;
+    content.appendChild(organization);
   }
+  if (entry.dates || entry.flag) {
+    const meta = document.createElement("p");
+    meta.className = "cv-li-meta";
+    if (entry.dates) {
+      const dates = document.createElement("span");
+      dates.className = "cv-date-badge";
+      dates.textContent = entry.dates;
+      meta.appendChild(dates);
+    }
+    if (entry.flag) {
+      const flag = document.createElement("img");
+      flag.className = "cv-flag";
+      flag.src = `${FLAG_BASE_URL}${encodeURIComponent(entry.flag)}.svg`;
+      flag.alt = entry.flag_alt || "Country flag";
+      meta.append(" ", flag);
+    }
+    content.appendChild(meta);
+  }
+  if (Array.isArray(entry.bullets) && entry.bullets.length) {
+    const bullets = document.createElement("ul");
+    bullets.className = "cv-li-bullets";
+    entry.bullets.forEach((text) => {
+      const item = document.createElement("li");
+      item.textContent = text;
+      bullets.appendChild(item);
+    });
+    content.appendChild(bullets);
+  }
+  if (entry.logo) {
+    const logo = document.createElement("img");
+    logo.className = "cv-li-logo";
+    logo.src = window.resolveSiteUrl(entry.logo);
+    logo.alt = entry.logo_alt || "";
+    article.append(logo, content);
+  } else {
+    article.classList.add("cv-li-entry-no-logo");
+    article.appendChild(content);
+  }
+  return article;
+};
 
   content.append(title, organization, meta);
   if (Array.isArray(entry.bullets) && entry.bullets.length) {
