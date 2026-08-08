@@ -1144,4 +1144,28 @@ code {
   .menu-button span {
     display: none;
   }
+  .cv-section h2 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1.2rem;
+}
+
+.cv-li-entry-no-logo {
+  grid-template-columns: 1fr;
+}
+
+.cv-li-entry-no-logo::before {
+  display: none;
+}
+
+.cv-li-entry + .cv-li-entry {
+  margin-top: 1.5rem;
+}
+
+.cv-li-bullets li + li {
+  margin-top: 0.3rem;
+}
 }
