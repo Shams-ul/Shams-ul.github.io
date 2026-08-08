@@ -6,16 +6,13 @@ const createCvEntry = (entry) => {
   article.className = "cv-li-entry";
   const content = document.createElement("div");
   content.className = "cv-li-content";
+
+  const header = document.createElement("div");
+  header.className = "cv-li-header";
   const title = document.createElement("p");
   title.className = "cv-li-title";
   title.textContent = entry.title;
-  content.appendChild(title);
-  if (entry.organization) {
-    const organization = document.createElement("p");
-    organization.className = "cv-li-org";
-    organization.textContent = entry.organization;
-    content.appendChild(organization);
-  }
+  header.appendChild(title);
   if (entry.dates || entry.flag) {
     const meta = document.createElement("p");
     meta.className = "cv-li-meta";
@@ -32,7 +29,15 @@ const createCvEntry = (entry) => {
       flag.alt = entry.flag_alt || "Country flag";
       meta.append(" ", flag);
     }
-    content.appendChild(meta);
+    header.appendChild(meta);
+  }
+  content.appendChild(header);
+
+  if (entry.organization) {
+    const organization = document.createElement("p");
+    organization.className = "cv-li-org";
+    organization.textContent = entry.organization;
+    content.appendChild(organization);
   }
   if (Array.isArray(entry.bullets) && entry.bullets.length) {
     const bullets = document.createElement("ul");
