@@ -7,7 +7,7 @@
         "organization": "Chittagong University of Engineering and Technology",
         "dates": "Feb 2020 - July 2025",
         "logo": "assets/images/institution-placeholder.svg",
-        "logo_alt": "CUET logo placeholder",
+        "logo_alt": "CUET logo",
         "flag": "BD",
         "flag_alt": "Bangladesh flag",
         "bullets": [
@@ -24,7 +24,7 @@
         "organization": "Nanomaterials and Energy Storage System (NESS) Lab, CUET",
         "dates": "June 2025 - March 2026",
         "logo": "assets/images/NESS.jpg",
-        "logo_alt": "NESS Lab logo placeholder",
+        "logo_alt": "NESS Lab logo",
         "flag": "BD",
         "flag_alt": "Bangladesh flag",
         "bullets": [
@@ -38,92 +38,38 @@
         "organization": "Nanomaterials and Energy Storage System (NESS) Lab, CUET",
         "dates": "Jan 2025 - June 2025",
         "logo": "assets/images/Thesis.jpg",
-        "logo_alt": "NESS Lab logo placeholder",
+        "logo_alt": "Undergraduate thesis project image",
         "flag": "BD",
         "flag_alt": "Bangladesh flag",
         "bullets": [
-          "Synthesized porous nanostructured iron oxide from transition-metal-oxide-rich industrial steel slag through ball milling, chemical and thermal processing routes",
-          "Fabricated iron oxide-based anode materials and assembled lithium-ion coin cells for electrochemical evaluation",
-          "Performed materials characterization using XRD and SEM to investigate morphology and phase composition",
-          "Conducted electrochemical characterization including GCD testing, CV, and EIS to evaluate battery performance"
+          "Synthesized porous nanostructured iron oxide from TMO-rich industrial steel slag through ball milling, chemical and thermal processing routes",
+          "Fabricated iron oxide-based anodes and assembled lithium-ion coin cells for electrochemical evaluation",
+          "Characterized morphology and phase composition using XRD and SEM",
+          "Conducted GCD, CV, and EIS testing to evaluate battery performance"
         ]
       }
     ]
   },
   {
-    "title": "Research Interests",
+    "title": "Technical Skills",
     "entries": [
       {
-        "title": "Lithium-ion battery, lithium-air battery, microporous materials, filtration membranes, ion transport, solid-state electrolytes, thermal modelling",
-        "organization": "",
-        "dates": ""
-      }
-    ]
-  },
-  {
-    "title": "Skills",
-    "entries": [
-      {
-        "title": "Laboratory and Experimental Skills",
-        "organization": "",
-        "dates": "",
+        "title": "Experimental",
         "bullets": [
-          "Dry chemical synthesis, thermal processing and heat treatment, powder processing, material synthesis, nanomaterial engineering",
-          "Electrochemical characterization, glovebox operation, air-sensitive material handling",
-          "Equipment: CV, EIS, GCD, SEM, XRD, ball mill, centrifuge, argon glovebox system, 3D printing"
+          "Dry chemical synthesis, thermal processing, powder processing, nanomaterial engineering, air-sensitive material handling",
+          "Instrumentation: CV, EIS, GCD, SEM, XRD, ball mill, centrifuge, argon glovebox, 3D printing"
         ]
       },
       {
-        "title": "Computational and Programming Skills",
-        "organization": "",
-        "dates": "",
+        "title": "Computational",
         "bullets": [
-          "Programming: Python, MATLAB, C++, PowerShell scripting",
-          "Machine learning: Scikit-learn, Keras, TensorFlow, NLP, big data processing",
-          "Data visualization: Pandas, NumPy, SciPy, Matplotlib, OpenCV, Origin Pro",
-          "Modelling software: ANSYS, SolidWorks, Quantum Espresso, CASTEP, COMSOL Multiphysics"
+          "Simulation: COMSOL Multiphysics, ANSYS, CASTEP, Quantum Espresso, SolidWorks",
+          "Programming: Python, MATLAB, C++",
+          "Analysis: Pandas, NumPy, SciPy, Matplotlib, Origin Pro, Scikit-learn, TensorFlow"
         ]
       }
     ]
-  },
-  {
-    "title": "Leadership and Volunteering",
-    "entries": [
-      {
-        "title": "Executive Member",
-        "organization": "Chittagong Student Forum, CUET",
-        "dates": ""
-      },
-      {
-        "title": "Executive Member",
-        "organization": "CUET Automotive and Mobility Society",
-        "dates": ""
-      },
-      {
-        "title": "Executive Member",
-        "organization": "Supply Chain and Business Alliance, CUET",
-        "dates": ""
-      }
-    ]
-  },
-  {
-    "title": "Conferences and Workshops",
-    "entries": [
-      {
-        "title": "International Conference on Mechanical Engineering and Renewable Energy",
-        "organization": "CUET",
-        "dates": "2025"
-      },
-      {
-        "title": "International Conference on Mechanical Engineering and Renewable Energy",
-        "organization": "CUET",
-        "dates": "2023"
-      },
-      {
-        "title": "CUET Competitive Programming Workshop",
-        "organization": "CUET",
-        "dates": ""
-      }
-    ]
+  }
+]
   }
 ]
