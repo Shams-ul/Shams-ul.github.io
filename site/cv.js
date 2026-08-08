@@ -57,21 +57,6 @@ const createCvEntry = (entry) => {
   return article;
 };
 
-  content.append(title, organization, meta);
-  if (Array.isArray(entry.bullets) && entry.bullets.length) {
-    const bullets = document.createElement("ul");
-    bullets.className = "cv-li-bullets";
-    entry.bullets.forEach((text) => {
-      const item = document.createElement("li");
-      item.textContent = text;
-      bullets.appendChild(item);
-    });
-    content.appendChild(bullets);
-  }
-  article.append(logo, content);
-  return article;
-};
-
 const initializeCv = async () => {
   if (!cvContent) return;
   try {
