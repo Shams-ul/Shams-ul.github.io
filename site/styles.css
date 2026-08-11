@@ -60,6 +60,10 @@ body::before {
   will-change: transform;
   animation: backgroundDrift 22s ease-in-out infinite alternate;
 }
+h1, h2, h3, .site-name, .cv-li-title, .pub-item-title, .project-item h2 {
+  font-family: "Lora", Georgia, serif;
+  font-weight: 600;
+}
 
 a {
   color: var(--link);
