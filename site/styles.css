@@ -502,6 +502,7 @@ section {
 }
 
   .cv-section h2 {
+  font-family: "Lora", Georgia, serif;
   font-size: 0.95rem;
   font-weight: 700;
   letter-spacing: 0.1em;
